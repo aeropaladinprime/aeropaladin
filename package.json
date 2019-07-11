@@ -30,7 +30,7 @@
     "sweetalert2": "^8.13.0",
     "xmlbuilder": "^13.0.2",
     "@craco/craco": "^5.2.3",
-    "craco-less": "^1.9.0",
+    "craco-less": "^1.9.0"
   },
   "scripts": {
     "client": "react-scripts start",
@@ -40,9 +40,7 @@
     "test": "craco test",
     "eject": "craco eject"
   },
-  "devDependencies": {
-    "@craco/craco": "^5.2.3",
-    "craco-less": "^1.9.0",
+  "devDependencies": {    
     "nodemon": "^1.18.10"
   },
   "browserslist": [
