@@ -33,7 +33,7 @@
   "scripts": {
     "client": "react-scripts start",
     "server": "nodemon --watch server server/server.js",
-    "start": "node server/server.js",    
+    "start": "node server/server.js"
   },
   "devDependencies": {    
     "nodemon": "^1.18.10",
