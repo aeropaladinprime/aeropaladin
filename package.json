@@ -28,20 +28,17 @@
     "semantic-ui-react": "^0.87.2",
     "sweetalert": "^2.1.2",
     "sweetalert2": "^8.13.0",
-    "xmlbuilder": "^13.0.2",
-    "@craco/craco": "^5.2.3",
-    "craco-less": "^1.9.0"
+    "xmlbuilder": "^13.0.2"
   },
   "scripts": {
     "client": "react-scripts start",
     "server": "nodemon --watch server server/server.js",
-    "start": "node server/server.js",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject"
+    "start": "node server/server.js",    
   },
   "devDependencies": {    
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "@craco/craco": "^5.2.3",
+    "craco-less": "^1.9.0"
   },
   "browserslist": [
     ">0.2%",
